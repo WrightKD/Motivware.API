@@ -1,0 +1,24 @@
+{
+  "name": "motivware.invoice",
+  "version": "0.0.1",
+  "description": "Invoice generation for Motivware.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "invoice",
+    "motivware"
+  ],
+  "author": "Kenneth Wright",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hummus": "^1.0.95",
+    "hummus-recipe": "^1.8.0"
+  },
+  "engines": {
+    "node": "11.x"
+  }
+}
